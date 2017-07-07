@@ -1,0 +1,36 @@
+{
+    "name": "derhofbauer/fesearch",
+    "description": "Frontend Search",
+    "type": "typo3-cms-extension",
+    "homepage": "http://hofbauer.rocks/",
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS", "frontend", "search"],
+    "version": "2.0.0",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.typo3.org/"
+        }
+    ],
+    "require": {
+        "typo3/cms": "^7.6.18"
+    },
+    "require-dev": {
+        "helhum/typo3-console": "^4.4"
+    },
+    "authors": [
+        {
+            "name": "Alexander Hofbauer",
+            "email": "hofbauer.alexander@gmail.com"
+        }
+    ],
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": "web"
+        },
+        "helhum/typo3-console": {
+            "install-extension-dummy": false
+        }
+    }
+}
