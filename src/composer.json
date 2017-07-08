@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Derhofbauer\\Fesearch\\": "typo3conf/ext/fesearch/Classes"
+            "Derhofbauer\\Fesearch\\": "Classes/"
         }
     }
 }

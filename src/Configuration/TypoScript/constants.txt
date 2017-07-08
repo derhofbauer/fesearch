@@ -1,0 +1,7 @@
+plugin.tx_fesearch {
+    view {
+        templateRootPath = EXT:fesearch/Resources/Private/Templates/
+        partialRootPath = EXT:fesearch/Resources/Private/Partials/
+        layoutRootPath = EXT:fesearch/Resources/Private/Layouts/
+    }
+}

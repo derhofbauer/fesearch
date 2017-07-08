@@ -1,0 +1,20 @@
+plugin.tx_fesearch {
+    view {
+        templateRootPath = {$plugin.tx_fesearch.view.templateRootPath}
+        partialRootPath = {$plugin.tx_fesearch.view.partialRootPath}
+        layoutRootPath = {$plugin.tx_fesearch.view.layoutRootPath}
+    }
+    settings {
+        enableExcludedElements = 1
+        filterOnlyBeneathSearchbox = 1
+        doNotIncludeCss = 0
+        useCEsAsDatasets = 1
+        CssSelectorForDatasets = 
+
+    }
+    mvc.callDefaultActionIfActionCantBeResolved = 1
+}
+
+page.includeJS {
+    fesearch = EXT:fesearch/Resources/Public/Scripts/fesearch.js
+}

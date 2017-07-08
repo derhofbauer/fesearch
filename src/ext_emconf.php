@@ -13,13 +13,13 @@ $EM_CONF['fesearch'] = array(
     'shy' => '',
     'priority' => '',
     'module' => '',
-    'state' => 'alpha',
     'internal' => '',
     'uploadfolder' => 0,
     'createDirs' => '',
     'modify_tables' => '', 
-    'clearCacheOnLoad' => 0,
+    'clearCacheOnLoad' => 1,
     'lockType' => '',
+    'state' => 'alpha',
     'version' => '1.0.0',
     'constraints' => array(
         'depends' => array(
@@ -34,7 +34,7 @@ $EM_CONF['fesearch'] = array(
     ),
     'autoload' => array(
         'psr-4' => array(
-            'Derhofbauer\\Fesearch\\' => 'Classes/'
+            'Derhofbauer\\Fesearch\\' => 'Classes'
         )
     )
 );
