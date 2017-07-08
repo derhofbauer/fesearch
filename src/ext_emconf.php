@@ -34,7 +34,7 @@ $EM_CONF['fesearch'] = array(
     ),
     'autoload' => array(
         'psr-4' => array(
-            'DerHofbauer\\Fesearch\\' => 'Classes'
+            'Derhofbauer\\Fesearch\\' => 'Classes/'
         )
     )
 );

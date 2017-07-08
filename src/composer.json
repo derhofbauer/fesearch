@@ -1,5 +1,5 @@
 {
-    "name": "DerHofbauer/fesearch",
+    "name": "Derhofbauer/fesearch",
     "description": "Frontend Search",
     "type": "typo3-cms-extension",
     "homepage": "http://hofbauer.rocks/",
@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DerHofbauer\\Fesearch\\": "Classes/"
+            "Derhofbauer\\Fesearch\\": "typo3conf/ext/fesearch/Classes"
         }
     }
 }

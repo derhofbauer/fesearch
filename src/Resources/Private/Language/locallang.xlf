@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="message" date="2017-03-28T13:32:00Z" product-name="imgdb">
+        <header />
+        <body>
+            <trans-unit id="plugin.backendTitle" xml:space="preserve">
+                <source>FE Search</source>
+            </trans-unit>
+
+            <!-- Flexform -->
+            <trans-unit id="flexform.tab.general" xml:space="preserve">
+                <source>Settings</source>
+            </trans-unit>
+            <trans-unit id="flexform.tab.general.enableExcludedElements" xml:space="preserve">
+                <source>Enable exclusion of elements</source>
+            </trans-unit>
+            <trans-unit id="flexform.tab.general.filterOnlyBeneathSearchbox" xml:space="preserve">
+                <source>Only filter items beneath the Searchbox</source>
+            </trans-unit>
+            <trans-unit id="flexform.tab.general.doNotIncludeCss" xml:space="preserve">
+                <source>Do not include Fesearch CSS</source>
+            </trans-unit>
+            <trans-unit id="flexform.tab.general.useCEsAsDatasets" xml:space="preserve">
+                <source>Use CEs as datasets</source>
+            </trans-unit>
+            <trans-unit id="flexform.tab.general.CssSelectorForDatasets" xml:space="preserve">
+                <source>CSS Selector for search datasets</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
