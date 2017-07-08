@@ -26,6 +26,11 @@
             <trans-unit id="flexform.tab.general.CssSelectorForDatasets" xml:space="preserve">
                 <source>CSS Selector for search datasets</source>
             </trans-unit>
+
+            <!-- tt_content -->
+            <!-- <trans-unit id="tt_content.excludeFromFesearch" xml:space="preserve">
+                <source>Exclude from FE Search</source>
+            </trans-unit> -->
         </body>
     </file>
 </xliff>
