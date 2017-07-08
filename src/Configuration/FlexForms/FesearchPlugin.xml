@@ -45,6 +45,7 @@
                                 <type>check</type>
                                 <default>1</default>
                             </config>
+                            <onChange>reload</onChange>
                         </TCEforms>
                     </settings.useCEsAsDatasets>
 
