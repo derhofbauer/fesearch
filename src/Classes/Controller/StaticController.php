@@ -14,7 +14,7 @@
  *
  *  The GNU General Public License can be found at
  *  http://www.gnu.org/copyleft/gpl.html
-. *
+ *
  *  This script is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -26,18 +26,20 @@
 namespace Derhofbauer\Fesearch\Controller;
 
 /**
- * @package fsearch
+ * @package fesearch
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
-class FesearchController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
+class StaticController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
     
     /**
      * show action
      * 
      * @return void
      */
-    public function showAction() {
+    public function searchboxAction() {
         \TYPO3\CMS\Core\Utility\DebugUtility::debug($this->settings);
+        lkhasgd;
         $this->view->assign('settings', $this->settings);
     }
+
 }

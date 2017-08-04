@@ -5,15 +5,15 @@ $boot = function() {
     // Register Plugin
     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
         'Derhofbauer.fesearch',
-        'Pi1',
+        'searchbox',
         'LLL:EXT:fesearch/Resources/Private/Language/locallang.xlf:plugin.backendTitle',
         'EXT:fesearch/ext_icon.svg'
         );
 
     // Add FlexForm
-    $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['fesearch_pi1'] = 'pi_flexform';
+    $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist']['fesearch_searchbox'] = 'pi_flexform';
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
-        'fesearch_pi1',
+        'fesearch_searchbox',
         'FILE:EXT:fesearch/Configuration/FlexForms/FesearchPlugin.xml'
         );
 
