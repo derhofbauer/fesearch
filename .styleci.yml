@@ -1,0 +1,12 @@
+preset: recommended
+
+finder:
+    name:
+        - "*.php"
+    not-name:
+        - "ext_emconf.php"
+    exclude:
+        - ".Build"
+        - "Documentation"
+        - "Libraries"
+        - "setup"
