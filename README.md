@@ -1,4 +1,8 @@
 # fesearch
+
+## CI
+![StyleCI Badge](https://styleci.io/repos/96573705/shield)
+
 Frontend Search Extension for Typo3
 
 This Extension is planned to only provide a plugin to include a searchbox and filter content elements on input. There is no backend search, just Javascript.
