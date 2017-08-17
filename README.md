@@ -1,5 +1,7 @@
 # fesearch
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e31b887e45dc4aeca882ae1997854fcc)](https://www.codacy.com/app/hofbauer.alexander/fesearch?utm_source=github.com&utm_medium=referral&utm_content=derhofbauer/fesearch&utm_campaign=badger)
+
 ## CI
 ![StyleCI Badge](https://styleci.io/repos/96573705/shield)
 ![CodeFactor](https://www.codefactor.io/repository/github/derhofbauer/fesearch/badge)
