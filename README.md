@@ -2,6 +2,7 @@
 
 ## CI
 ![StyleCI Badge](https://styleci.io/repos/96573705/shield)
+![CodeFactor](https://www.codefactor.io/repository/github/derhofbauer/fesearch/badge)
 
 Frontend Search Extension for Typo3
 
