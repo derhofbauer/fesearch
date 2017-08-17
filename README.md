@@ -3,6 +3,7 @@
 ## CI
 ![StyleCI Badge](https://styleci.io/repos/96573705/shield)
 ![CodeFactor](https://www.codefactor.io/repository/github/derhofbauer/fesearch/badge)
+[![BCH compliance](https://bettercodehub.com/edge/badge/derhofbauer/fesearch?branch=master)](https://bettercodehub.com/)
 
 Frontend Search Extension for Typo3
 
