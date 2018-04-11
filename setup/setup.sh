@@ -18,23 +18,23 @@ apt install -y \
     nano
 
 # Install & enable MySQLi
-MYSQLI_INSTALLED=`php -i | grep mysqli`
+MYSQLI_INSTALLED=$(php -i | grep mysqli)
 if [[ -z $MYSQLI_INSTALLED ]]; then
     docker-php-ext-install mysqli
 fi
 
-GD_INSTALLED=`php -i | grep gd`
+GD_INSTALLED=$(php -i | grep gd)
 if [[ -z $GD_INSTALLED ]]; then
     docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ --with-xpm-dir=/usr/
     docker-php-ext-install gd
 fi
 
-ZIP_INSTALLED=`php -i | grep 'zip'`
+ZIP_INSTALLED=$(php -i | grep 'zip')
 if [[ -z $ZIP_INSTALLED ]]; then
     docker-php-ext-install zip
 fi
 
-SOAP_INSTALLED=`php -i | grep soap`
+SOAP_INSTALLED=$(php -i | grep soap)
 if [[ -z $SOAP_INSTALLED ]]; then
     docker-php-ext-install soap
 fi
